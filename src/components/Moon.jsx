@@ -1,4 +1,3 @@
-const texture = useLoader(TextureLoader, 'https://images.pexels.com/photos/596134/pexels-photo-596134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); // URL to a moon image from Pexels
 import React, { useRef, useEffect } from 'react';
 import { useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three';
@@ -6,6 +5,7 @@ import { gsap } from 'gsap';
 
 function Moon() {
   const moonRef = useRef();
+  const texture = useLoader(TextureLoader, 'https://path-to-high-quality-moon-texture.jpg');
 
   useEffect(() => {
     if (moonRef.current) {
@@ -15,8 +15,8 @@ function Moon() {
 
   return (
     <mesh ref={moonRef} position={[5, 5, -10]}>
-      <sphereGeometry args={[1, 32, 32]} />
-      <meshStandardMaterial map={texture} />
+      <sphereGeometry args={[1, 64, 64]} />
+      <meshStandardMaterial map={texture} emissive="white" emissiveIntensity={0.8} />
     </mesh>
   );
 }

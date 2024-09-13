@@ -6,7 +6,7 @@ import { gsap } from 'gsap';
 import NavMenu from './components/NavMenu';
 import Portfolio from './components/Portfolio';
 import Moon from './components/Moon';
-import Saturn from './components/Saturn';
+import Saturn from './components/Saturn.jsx';
 
 function App() {
   const sunRef = useRef();
