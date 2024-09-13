@@ -29,7 +29,7 @@ function Planets() {
   ));
 }
 
-function Planet({ texture, color, size, position, emissive = false }) {
+function Planet({ texture, color = 'white', size = 1, position = [0, 0, 0], emissive = false }) {
   const planetRef = useRef();
   const loadedTexture = texture ? useLoader(TextureLoader, texture) : null;
 
@@ -45,7 +45,11 @@ function Planet({ texture, color, size, position, emissive = false }) {
       {loadedTexture ? (
         <meshStandardMaterial map={loadedTexture} />
       ) : (
-        <meshStandardMaterial color={color} emissive={emissive ? color : null} emissiveIntensity={emissive ? 1 : 0} />
+        <meshStandardMaterial
+          color={color}
+          emissive={emissive ? color : null}
+          emissiveIntensity={emissive ? 1 : 0}
+        />
       )}
     </mesh>
   );
