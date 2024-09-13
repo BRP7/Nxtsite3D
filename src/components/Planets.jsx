@@ -5,14 +5,14 @@ import { gsap } from 'gsap';
 
 const planetsData = [
   { name: 'Sun', texture: '', color: 'yellow', size: 3, position: [0, 0, -20], emissive: true },
-  { name: 'Mercury', texture: 'https://path-to-mercury-texture.jpg', size: 1, position: [5, 2, -15] },
-  { name: 'Venus', texture: 'https://path-to-venus-texture.jpg', size: 1.2, position: [8, 3, -10] },
-  { name: 'Earth', texture: 'https://path-to-earth-texture.jpg', size: 1.3, position: [11, 4, -8] },
-  { name: 'Mars', texture: 'https://path-to-mars-texture.jpg', size: 1, position: [14, 5, -6] },
-  { name: 'Jupiter', texture: 'https://path-to-jupiter-texture.jpg', size: 2.5, position: [17, 6, -4] },
-  { name: 'Saturn', texture: 'https://path-to-saturn-texture.jpg', size: 2, position: [20, 7, -2] },
-  { name: 'Uranus', texture: 'https://path-to-uranus-texture.jpg', size: 1.8, position: [23, 8, 0] },
-  { name: 'Neptune', texture: 'https://path-to-neptune-texture.jpg', size: 1.7, position: [26, 9, 2] },
+  { name: 'Mercury', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1, position: [5, 2, -15] },
+  { name: 'Venus', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.2, position: [8, 3, -10] },
+  { name: 'Earth', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.3, position: [11, 4, -8] },
+  { name: 'Mars', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1, position: [14, 5, -6] },
+  { name: 'Jupiter', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 2.5, position: [17, 6, -4] },
+  { name: 'Saturn', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 2, position: [20, 7, -2] },
+  { name: 'Uranus', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.8, position: [23, 8, 0] },
+  { name: 'Neptune', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.7, position: [26, 9, 2] },
   // Add any more planets here
 ];
 
