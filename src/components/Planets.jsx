@@ -12,7 +12,7 @@ const planetsData = [
   { name: 'Jupiter', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 2.5, position: [17, 6, -4] },
   { name: 'Saturn', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 2, position: [20, 7, -2] },
   { name: 'Uranus', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.8, position: [23, 8, 0] },
-  { name: 'Neptune', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.7, position: [26, 9, 2] },
+  { name: 'Neptune', texture: 'https://img.freepik.com/premium-psd/neptune-planet-isolated-transparent-background_986960-53882.jpg', size: 1.7, position: [26, 9, 2] },
   // Add any more planets here
 ];
 
