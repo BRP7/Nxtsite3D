@@ -6,9 +6,9 @@ import { gsap } from 'gsap';
 const planetsData = [
   { name: 'Sun', texture: '', color: 'yellow', size: 3, position: [0, 0, -20], emissive: true },
   { name: 'Mercury', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1, position: [5, 2, -15] },
-  { name: 'Venus', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.2, position: [8, 3, -10] },
-  { name: 'Earth', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.3, position: [11, 4, -8] },
-  { name: 'Mars', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1, position: [14, 5, -6] },
+  { name: 'Venus', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIxzlVqpJ3w-VdX6Na8lpW0KYV-Wg5Gx06FA&s', size: 1.2, position: [8, 3, -10] },
+  { name: 'Earth', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRtSo2Y6Vd0BSwHoAyDbcg29WHx-wuP8IkFw&s', size: 1.3, position: [11, 4, -8] },
+  { name: 'Mars', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOXems5hecNN2eFScMMeDSGTgZBCJ4jCNHw&s', size: 1, position: [14, 5, -6] },
   { name: 'Jupiter', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 2.5, position: [17, 6, -4] },
   { name: 'Saturn', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 2, position: [20, 7, -2] },
   { name: 'Uranus', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.8, position: [23, 8, 0] },
