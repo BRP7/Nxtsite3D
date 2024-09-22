@@ -40,7 +40,6 @@ function Planet({ texture, color = 'white', size = 1, position = [0, 0, 0], emis
   }, [position]);
 
   return (
-    //mesh
     <mesh ref={planetRef} position={position}>
       <sphereGeometry args={[size, 64, 64]} />
       {loadedTexture ? (
