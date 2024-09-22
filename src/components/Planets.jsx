@@ -11,8 +11,8 @@ const planetsData = [
   { name: 'Mars', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOXems5hecNN2eFScMMeDSGTgZBCJ4jCNHw&s', size: 1, position: [14, 5, -6] },
   { name: 'Jupiter', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Zjr0cb2P-EhmGrBDEL_bNj9Enc0I_fuJuw&s', size: 2.5, position: [17, 6, -4] },
   { name: 'Saturn', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6gwdZ3XVssZg967vb3iJ60C8jBC0ksM4Ag&s', size: 2, position: [20, 7, -2] },
-  { name: 'Uranus', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.8, position: [23, 8, 0] },
-  { name: 'Neptune', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgE4dEyv19HhES9nQBk0XR_BBEYZhjRlCeQ&s', size: 1.7, position: [26, 9, 2] },
+  { name: 'Uranus', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz8CWvDBH8zSn_dnrXwAN1724RQNv5qdnGHw&s', size: 1.8, position: [23, 8, 0] },
+  { name: 'Neptune', texture: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjo1oxkETHOcpm47kb0ird5ig8vSl82bdC6g&s', size: 1.7, position: [26, 9, 2] },
   // Add any more planets here
 ];
 
