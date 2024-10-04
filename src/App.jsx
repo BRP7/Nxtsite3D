@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Stars } from '@react-three/drei';
 import NavMenu from './components/NavMenu';
 import Portfolio from './components/Portfolio';
-import Planets from './components/Planets'; // Import Planets component
+import Planets from './components/Planets'; // Import Planets component.
 
 function App() {
   return (
