@@ -4,7 +4,7 @@ import './Portfolio.css';
 function Portfolio() {
   return (
     <section className="portfolio">
-      <h1>Our Work</h1>
+      <h1>Our Work.</h1>
       <div className="portfolio-grid">
         <div className="portfolio-item">Project 1</div>
         <div className="portfolio-item">Project 2</div>
